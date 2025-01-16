@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Students</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f9;
+            }
+            header {
+                background: linear-gradient(to right, #39818c, #2fe3ff);
+                color: white;
+                text-align: center;
+                padding: 20px;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+            }
+            nav {
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                position: sticky;
+                top: 60px;
+                z-index: 999;
+            }
+            nav a {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+            nav a:hover {
+                color: #2fe3ff;
+            }
+            .container {
+                margin: 20px auto;
+                padding: 20px;
+                max-width: 1200px;
+            }
+            .student-card {
+                background: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                margin-bottom: 20px;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .student-card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            }
+            .student-card img {
+                width: 100%;
+                height: auto;
+            }
+            .student-card h3 {
+                margin: 15px;
+                color: #333;
+            }
+            .student-card p {
+                margin: 0 15px 15px;
+                color: #666;
+            }
+            footer {
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <h1>Our Students</h1>
+        <p>Discover the bright minds in our class.</p>
+    </header>
+    <nav>
+        <a href="The English Muse.html">Home</a>
+        <a href="school-info.html">School Info</a>
+        <a href="#">Students</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="activities.html">Activities</a>
+        <a href="events.html">Events</a>
+    </nav>
+    <div class="container">
+        <div class="student-card">
+            <img src="student1.jpg" alt="Student 1">
+            <h3>John Doe</h3>
+            <p>John is an exceptional student excelling in mathematics and science.</p>
+        </div>
+        <div class="student-card">
+            <img src="student2.jpg" alt="Student 2">
+            <h3>Jane Smith</h3>
+            <p>Jane is known for her creativity and artistic talents.</p>
+        </div>
+        <div class="student-card">
+            <img src="student3.jpg" alt="Student 3">
+            <h3>Michael Johnson</h3>
+            <p>Michael is a sports enthusiast and a great team player.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 The English Muse. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

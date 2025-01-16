@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>School Info</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: #eef2f3;
+                overflow-x: hidden;
+            }
+            header {
+                background: linear-gradient(to right, #39818c, #2fe3ff);
+                color: white;
+                text-align: center;
+                padding: 50px 20px;
+            }
+            header h1 {
+                font-size: 3em;
+                margin: 0;
+            }
+            header p {
+                font-size: 1.5em;
+            }
+            nav {
+                display: flex;
+                justify-content: center;
+                background: #333;
+                padding: 15px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 1.2em;
+                transition: color 0.3s;
+            }
+            nav a:hover {
+                color: #2fe3ff;
+            }
+            .info-section {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 20px;
+                gap: 20px;
+            }
+            .info-box {
+                background: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                width: 300px;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+            .info-box:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            }
+            .info-box h3 {
+                color: #2fe3ff;
+                margin-bottom: 10px;
+            }
+            .info-box p {
+                color: #666;
+            }
+            footer {
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <h1>About Our School</h1>
+        <p>Discover more about our mission, vision, and values.</p>
+    </header>
+    <nav>
+        <a href="The English Muse.html">Home</a>
+        <a href="#">School Info</a>
+        <a href="students.html">Students</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="activities.html">Activities</a>
+        <a href="events.html">Events</a>
+    </nav>
+    <div class="info-section">
+        <div class="info-box">
+            <h3>Our Mission</h3>
+            <p>To provide quality education and inspire lifelong learning in every student.</p>
+        </div>
+        <div class="info-box">
+            <h3>Our Vision</h3>
+            <p>Empowering students to become innovative and compassionate leaders of tomorrow.</p>
+        </div>
+        <div class="info-box">
+            <h3>Core Values</h3>
+            <p>Respect, Integrity, Excellence, and Collaboration are at the heart of everything we do.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 The English Muse. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
